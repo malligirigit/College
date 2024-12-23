@@ -4,7 +4,8 @@ public class Calculatorclass {
     public integer firstNumber,secondNumber;
     public Decimal results;
     //creating the constructor for initiating the values for the variables whole class
-   /* public Calculatorclass(integer firstnumber, integer secondnumber) {
+    
+    public Calculatorclass(integer firstnumber, integer secondnumber) {
         //this key word is used for values assginment for the class level variables 
        this.firstNumber=firstnumber;
        this.secondNumber=secondnumber;
@@ -15,7 +16,6 @@ public class Calculatorclass {
          
         
     }
-*/
     //if we pass the parameters using the constructor the whole class and its methods can access these values.
     //whereas if we pass the parameters into a single method it won't allows those values to another method ...
     public void addition() {
